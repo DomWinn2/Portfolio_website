@@ -8,22 +8,32 @@ import { ProjectSection } from "../components/ProjectSection";
 import { ContactSection } from "../components/ContactSection";
 
 export const Home = () => {
-    return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    return <div className="min-h-screen bg-background text-foreground overflow-y-scroll snap-y snap-mandatory scroll-smooth overflow-x-hidden">
 
         {/* Theme Toggle */}
-            <ThemeToggle />
+        <ThemeToggle />
         {/* Background Effects */}
-            <StarBackground />
+        <StarBackground />
         {/* Navbar */}
-            <Navbar />
+        <Navbar />
         {/* Main Content */}
-            <main>
+        <main>
+            <section className="snap-start h-screen">
                 <HeroSection />
+            </section>
+            <section className="snap-start h-screen">
                 <AboutMeSection />
+            </section>
+            <section className="snap-start h-screen">
                 <SkillsSection />
+            </section>
+            <section className="snap-center h-screen">
                 <ProjectSection />
+            </section>
+            <section className="snap-center h-screen">
                 <ContactSection />
-            </main>
+            </section>
+        </main>
         {/* Footer */}
     </div>;
 };
