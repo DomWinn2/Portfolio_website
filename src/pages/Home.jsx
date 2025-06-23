@@ -6,6 +6,7 @@ import { AboutMeSection } from "../components/AboutMeSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { ProjectSection } from "../components/ProjectSection";
 import { ContactSection } from "../components/ContactSection";
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
     return <div className="min-h-screen bg-background text-foreground overflow-y-scroll snap-y snap-mandatory scroll-smooth overflow-x-hidden">
@@ -35,5 +36,7 @@ export const Home = () => {
             </section>
         </main>
         {/* Footer */}
+        <Footer />
+
     </div>;
 };
