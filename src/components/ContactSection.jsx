@@ -10,7 +10,7 @@ export const ContactSection = () => {
                     Get In <span className="text-primary"> Touch </span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Something Here
+                    Something here
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div className="space-y-8">
@@ -61,13 +61,13 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <h4 className="font-medium mb-4"> Connect With Me </h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="#" target="_blank">
+                                <a href="https://www.linkedin.com/in/dominick-winningham" target="_blank">
                                     <Linkedin />
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://www.instagram.com/dom_winning2" target="_blank">
                                     <Instagram />
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://github.com/DomWinn2" target="_blank">
                                     <Github />
                                 </a>
                             </div>
