@@ -78,23 +78,23 @@ export const ThemeToggle = () => {
       className="fixed max-sm:hidden top-5 right-5 z-50"
     >
       <div
-        className={`w-14 h-8 rounded-full px-1 flex items-center transition-colors duration-500 shadow-inner ${
+        className={`w-12 h-6 rounded-full px-1 flex items-center transition-colors duration-500 shadow-inner ${
           isDarkMode
-            ? "bg-red-800/40 border border-red-500"
-            : "bg-blue-700/30 border border-blue-500"
+            ? "bg-red-800/40 border border-white"
+            : "bg-blue-700/30 border border-black"
         }`}
       >
         <div
-          className={`h-6 w-6 rounded-full transform transition-transform duration-300 flex items-center justify-center shadow-lg ${
+          className={`h-5 w-5 rounded-full transform transition-transform duration-300 flex items-center justify-center shadow-lg ${
             isDarkMode
-              ? "translate-x-6 bg-red-500 shadow-[0_0_10px_2px_rgba(255,0,0,0.8)]"
+              ? "translate-x-4.5 bg-red-500 shadow-[0_0_10px_2px_rgba(255,0,0,0.8)]"
               : "translate-x-0 bg-blue-500 shadow-[0_0_10px_2px_rgba(0,153,255,0.8)]"
           }`}
         >
           {isDarkMode ? (
-            <MoonStar className="h-3.5 w-3.5 text-white" />
+            <MoonStar className="h-3 w-3 text-white" />
           ) : (
-            <SunMedium className="h-3.5 w-3.5 text-white" />
+            <SunMedium className="h-3 w-3 text-white" />
           )}
         </div>
       </div>
