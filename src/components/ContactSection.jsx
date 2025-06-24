@@ -61,13 +61,25 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <h4 className="font-medium mb-4"> Connect With Me </h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="https://www.linkedin.com/in/dominick-winningham" target="_blank">
+                                <a 
+                                    href="https://www.linkedin.com/in/dominick-winningham" 
+                                    target="_blank"
+                                    className="text-muted-foreground hover:text-primary transition-colors"
+                                >
                                     <Linkedin />
                                 </a>
-                                <a href="https://www.instagram.com/dom_winning2" target="_blank">
+                                <a 
+                                    href="https://www.instagram.com/dom_winning2" 
+                                    target="_blank"
+                                    className="text-muted-foreground hover:text-primary transition-colors"
+                                >
                                     <Instagram />
                                 </a>
-                                <a href="https://github.com/DomWinn2" target="_blank">
+                                <a 
+                                    href="https://github.com/DomWinn2" 
+                                    target="_blank"
+                                    className="text-muted-foreground hover:text-primary transition-colors"
+                                >
                                     <Github />
                                 </a>
                             </div>
