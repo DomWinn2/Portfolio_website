@@ -83,6 +83,7 @@
 
     --primary: 210 90% 56%; /* bright blue hue */
     --primary-foreground: 210 40% 98%;
+    --glow-color: 210 90% 56%; /* blue */
 
     --border: 214 32% 91%;
   }
@@ -95,6 +96,7 @@
 
     --primary: 0 78% 60%; /* bright red hue */
     --primary-foreground: 213 31% 91%;
+    --glow-color: 0 78% 60%; /* red */
 
     --border: 217 33% 20%;
   }
@@ -159,7 +161,7 @@
 }
 
 .cosmic-button:hover {
-  box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+  box-shadow: 0 0 10px hsla(var(--glow-color) / 0.5);
 }
 
 @utility star {
