@@ -3,19 +3,19 @@ import { ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "title1",
-        description: "description",
-        image: "image path",
-        tags: ["skills for project"],
-        demoUrl: "#",
-        githubUrl: "#",
+        title: "Towson Marketplace",
+        description: "Digital marketplace platform designed specifically for Towson students to buy and sell textbooks, electronics, and other essentials within their campus community.",
+        image: "./public/projects/TU-marketplace-ss.png",
+        tags: ["React, Tailwindcss, Vercel, Javascript, Stripe, MongoDB, Firebase"],
+        demoUrl: "https://cosc-484-project-front.vercel.app",
+        githubUrl: "https://github.com/Abdalla2024/COSC484_Project.git",
     },
     {
         id: 2,
         title: "title2",
-        description: "description",
-        image: "image path",
-        tags: ["skills for project"],
+        description: "#",
+        image: "#",
+        tags: ["#"],
         demoUrl: "#",
         githubUrl: "#",
     },
@@ -23,7 +23,7 @@ const projects = [
         id: 3,
         title: "title3",
         description: "description",
-        image: "image path",
+        image: "#",
         tags: ["skills for project"],
         demoUrl: "#",
         githubUrl: "#",
@@ -39,7 +39,7 @@ export const ProjectSection = () => {
                     Featured <span className="text-primary"> Projects </span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-aauto">
-                    Something Here
+                    Below you can find some projects I have worked on.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
