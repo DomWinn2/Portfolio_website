@@ -81,7 +81,7 @@
 
     --card: 0 0% 100%;
 
-    --primary: 210 90% 56%; /* bright blue hue */
+    --primary: 210 90% 56%; /* bright blue */
     --primary-foreground: 210 40% 98%;
     --glow-color: 210 90% 56%; /* blue */
 
@@ -97,7 +97,7 @@
 
     --card: 222 47% 8%;
 
-    --primary: 0 78% 60%; /* bright red hue */
+    --primary: 0 78% 60%; /* bright red */
     --primary-foreground: 213 31% 91%;
     --glow-color: 0 78% 60%; /* red */
 
