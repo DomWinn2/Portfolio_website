@@ -87,8 +87,6 @@
 
     --border: 214 32% 91%;
 
-    --star-color: 0 0% 0%;       /* black */
-    --meteor-color: 0 0% 0%;
   }
 
   .dark {
@@ -103,8 +101,6 @@
 
     --border: 217 33% 20%;
 
-    --star-color: 0 0% 100%;     /* white */
-    --meteor-color: 0 0% 100%;
   }
 
   * {
@@ -171,15 +167,13 @@
 }
 
 @utility star {
-  @apply absolute rounded-full;
-  background-color: hsl(var(--star-color));
-  box-shadow: 0 0 10px 2px hsla(var(--star-color) / 0.4);
+  @apply absolute rounded-full bg-white;
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
 }
 
 @utility meteor {
-  @apply absolute rounded-full;
-  background: linear-gradient(to right, hsl(var(--meteor-color)), hsl(var(--meteor-color)), transparent);
-  box-shadow: 0 0 10px 5px hsla(var(--meteor-color) / 0.3);
+  @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
 }
 
 #root {
