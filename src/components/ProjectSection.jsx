@@ -12,16 +12,16 @@ const projects = [
     },
     {
         id: 2,
-        title: "title2",
-        description: "#",
+        title: "BigBite",
+        description: "Meal/Recipe app for helping decide what meals to make.",
         image: "#",
-        tags: ["#"],
+        tags: ["React Native, Expo, Node.js, Express, PostgreSQL, Clerk Auth, Render"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/DomWinn2/BigBite-recipe-app",
     },
     {
         id: 3,
-        title: "title3",
+        title: "In Progress",
         description: "description",
         image: "#",
         tags: ["skills for project"],
@@ -38,9 +38,6 @@ export const ProjectSection = () => {
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
                     Featured <span className="text-primary"> Projects </span>
                 </h2>
-                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-aauto">
-                    Below you can find some projects I have worked on.
-                </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, key) => (
@@ -48,7 +45,7 @@ export const ProjectSection = () => {
                             key={key}
                             className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                         >
-                            <div className="h-48 overflow-hidden">
+                            <div className="h-45 overflow-hidden">
                                 <img
                                     src={project.image}
                                     alt={project.title}

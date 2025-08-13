@@ -64,21 +64,21 @@ export const ContactSection = () => {
                                 <a 
                                     href="https://www.linkedin.com/in/dominick-winningham" 
                                     target="_blank"
-                                    className="text-muted-foreground hover:text-primary transition-colors"
+                                    className="text-muted-foreground hover:text-primary transition-colors card-hover"
                                 >
                                     <Linkedin />
                                 </a>
                                 <a 
                                     href="https://www.instagram.com/dom_winning2" 
                                     target="_blank"
-                                    className="text-muted-foreground hover:text-primary transition-colors"
+                                    className="text-muted-foreground hover:text-primary transition-colors card-hover"
                                 >
                                     <Instagram />
                                 </a>
                                 <a 
                                     href="https://github.com/DomWinn2" 
                                     target="_blank"
-                                    className="text-muted-foreground hover:text-primary transition-colors"
+                                    className="text-muted-foreground hover:text-primary transition-colors card-hover"
                                 >
                                     <Github />
                                 </a>

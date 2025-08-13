@@ -12,14 +12,20 @@ export const AboutMeSection = () => {
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">Passionate Web Developer and Tech Creator</h3>
 
-                        <p className="text-muted-foreground">Something</p>
+                        <p className="text-muted-foreground">
+                            I’m a self-driven developer with a love for building modern, responsive, and 
+                            user-friendly applications. My journey started with tinkering on small personal 
+                            projects, and it’s evolved into crafting full-stack solutions that solve real-world 
+                            problems. Whether I’m building a sleek UI in React or designing a robust backend 
+                            API, I’m always focused on clean code, performance, and user experience.
+                        </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button"> Get In Touch </a>
                             <a 
                                 href="./public/about/DominickWinningham_Resume2.pdf" 
                                 download
-                                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 tranistion-colors duration-300"
+                                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 tranistion-colors duration-300 card-hover"
                             > 
                                 Download Resume 
                             </a>
@@ -34,7 +40,11 @@ export const AboutMeSection = () => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Web Development </h4>
-                                    <p className="text-muted-foreground"> Something </p>
+                                    <p className="text-muted-foreground"> 
+                                        Experienced in building responsive websites and full-stack applications 
+                                        using React, Next.js, Node.js, and MongoDB — with a focus on performance, 
+                                        accessibility, and maintainability.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +55,11 @@ export const AboutMeSection = () => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> UI/UX Design </h4>
-                                    <p className="text-muted-foreground"> Something </p>
+                                    <p className="text-muted-foreground"> 
+                                        Skilled in crafting intuitive interfaces with a balance of aesthetics and 
+                                        usability. I use Figma and Tailwind CSS to create designs that enhance 
+                                        the overall user experience. 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +70,11 @@ export const AboutMeSection = () => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Projects </h4>
-                                    <p className="text-muted-foreground"> Something </p>
+                                    <p className="text-muted-foreground"> 
+                                        From personal apps to collaborative group projects, I’ve built solutions 
+                                        for task management, e-commerce, and data visualization. Each project 
+                                        has sharpened my skills and taught me new tools and techniques.
+                                    </p>
                                 </div>
                             </div>
                         </div>
