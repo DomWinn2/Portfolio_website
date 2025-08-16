@@ -35,15 +35,15 @@ export const ThemeToggle = () => {
       <div
         className={`w-12 h-6 rounded-full px-1 flex items-center transition-colors duration-500 shadow-inner ${
           isDarkMode
-            ? "bg-red-800/40 border border-white"
-            : "bg-blue-700/30 border border-black"
+            ? "bg-blue-700/30 border border-blue-400"
+            : "bg-yellow-400/40 border border-yellow-300"
         }`}
       >
         <div
           className={`h-5 w-5 rounded-full transform transition-transform duration-300 flex items-center justify-center shadow-lg ${
             isDarkMode
-              ? "translate-x-4.5 bg-red-500 shadow-[0_0_10px_2px_rgba(255,0,0,0.8)]"
-              : "translate-x-0 bg-blue-500 shadow-[0_0_10px_2px_rgba(0,153,255,0.8)]"
+              ? "translate-x-5 bg-blue-500 shadow-[0_0_10px_2px_rgba(0,153,255,0.8)]"
+              : "translate-x-0 bg-yellow-400 shadow-[0_0_10px_2px_rgba(255,255,0,0.8)]"
           }`}
         >
           {isDarkMode ? (

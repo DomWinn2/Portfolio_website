@@ -13,7 +13,7 @@ const projects = [
     {
         id: 2,
         title: "BigBite",
-        description: "Meal/Recipe app for helping decide what meals to make.",
+        description: "Meal/Recipe app for helping decide what meals to make. It features full steps, ingridient lists, and video tutorials for each recipe.",
         image: "./public/projects/BigBiteHome.png",
         tags: ["React Native, Expo, Node.js, Express, PostgreSQL, Clerk Auth, Render"],
         demoUrl: "#",
@@ -33,7 +33,7 @@ const projects = [
 export const ProjectSection = () => {
 
     return (
-        <section id="projects" className="py-24 px-4 relative">
+        <section id="projects" className="py-28 px-4 relative">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
                     Featured <span className="text-primary"> Projects </span>
@@ -49,7 +49,7 @@ export const ProjectSection = () => {
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-full object-contain"
+                                    className="max-h-full max-w-full object-contain"
                                 />
                             </div>
                             <div className="p-6">
