@@ -14,7 +14,7 @@ const projects = [
         id: 2,
         title: "BigBite",
         description: "Meal/Recipe app for helping decide what meals to make.",
-        image: "#",
+        image: "./public/projects/BigBiteHome.png",
         tags: ["React Native, Expo, Node.js, Express, PostgreSQL, Clerk Auth, Render"],
         demoUrl: "#",
         githubUrl: "https://github.com/DomWinn2/BigBite-recipe-app",
@@ -45,11 +45,11 @@ export const ProjectSection = () => {
                             key={key}
                             className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                         >
-                            <div className="h-45 overflow-hidden">
+                            <div className="h-48 flex items-center justify-center bg-muted overflow-hidden">
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    className="w-full h-full object-contain"
                                 />
                             </div>
                             <div className="p-6">
