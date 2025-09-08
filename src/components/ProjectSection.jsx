@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "Towson Marketplace",
         description: "Digital marketplace platform designed specifically for Towson students to buy and sell textbooks, electronics, and other essentials within their campus community.",
-        image: "./public/projects/TU-marketplace-ss.png",
+        image: "projects/TU-marketplace-ss.png",
         tags: ["React, Tailwindcss, Vercel, Javascript, Stripe, MongoDB, Firebase"],
         demoUrl: "https://cosc-484-project-front.vercel.app",
         githubUrl: "https://github.com/Abdalla2024/COSC484_Project.git",
@@ -14,19 +14,10 @@ const projects = [
         id: 2,
         title: "BigBite",
         description: "Meal/Recipe app for helping decide what meals to make. It features full steps, ingridient lists, and video tutorials for each recipe.",
-        image: "./public/projects/BigBiteHome.png",
+        image: "/projects/BigBiteHome.png",
         tags: ["React Native, Expo, Node.js, Express, PostgreSQL, Clerk Auth, Render"],
         demoUrl: "#",
         githubUrl: "https://github.com/DomWinn2/BigBite-recipe-app",
-    },
-    {
-        id: 3,
-        title: "In Progress",
-        description: "description",
-        image: "#",
-        tags: ["skills for project"],
-        demoUrl: "#",
-        githubUrl: "#",
     },
 ];
 
@@ -39,7 +30,7 @@ export const ProjectSection = () => {
                     Featured <span className="text-primary"> Projects </span>
                 </h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 justify-items-center">
                     {projects.map((project, key) => (
                         <div
                             key={key}

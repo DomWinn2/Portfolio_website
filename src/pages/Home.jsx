@@ -12,28 +12,28 @@ export const Home = () => {
         <div className="min-h-screen bg-background text-foreground overflow-y-scroll snap-y snap-mandatory scroll-smooth overflow-x-hidden">
             {/* Theme Toggle */}
             <ThemeToggle />
-                {/* Navbar */}
-                <Navbar />
-                {/* Main Content */}
-                <main>
-                    <section className="snap-start h-screen">
-                        <HeroSection />
-                    </section>
-                    <section className="snap-start h-screen">
-                        <AboutMeSection />
-                    </section>
-                    <section className="snap-start h-screen">
-                        <SkillsSection />
-                    </section>
-                    <section className="snap-center h-screen">
-                        <ProjectSection />
-                    </section>
-                    <section className="snap-center h-screen">
-                        <ContactSection />
-                    </section>
-                </main>
-                {/* Footer */}
-                <Footer />
+            {/* Navbar */}
+            <Navbar />
+            {/* Main Content */}
+            <main>
+                <section className="snap-start min-h-screen">
+                    <HeroSection />
+                </section>
+                <section className="snap-start min-h-screen">
+                    <AboutMeSection />
+                </section>
+                <section className="snap-start min-h-screen">
+                    <SkillsSection />
+                </section>
+                <section className="snap-center min-h-screen">
+                    <ProjectSection />
+                </section>
+                <section className="snap-center min-h-screen">
+                    <ContactSection />
+                </section>
+            </main>
+            {/* Footer */}
+            <Footer />
         </div>
     );
 };
