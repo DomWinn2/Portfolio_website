@@ -31,9 +31,9 @@ export const ProjectSection = () => {
                 </h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 justify-items-center">
-                    {projects.map((project, key) => (
+                    {projects.map((project) => (
                         <div
-                            key={key}
+                            key={project.id}
                             className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                         >
                             <div className="h-48 flex items-center justify-center bg-muted overflow-hidden">
@@ -45,8 +45,9 @@ export const ProjectSection = () => {
                             </div>
                             <div className="p-6">
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    {project.tags.map((tag) => (
+                                    {project.tags.map((tag, index) => (
                                         <span
+                                            key={index}
                                             className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
                                         >
                                             {tag}
@@ -67,6 +68,7 @@ export const ProjectSection = () => {
                                         <a
                                             href={project.githubUrl}
                                             target="_blank"
+                                            rel="noopener noreferrer"
                                             className="text-foreground/80 hover:text-primary transition-colors duration-300"
                                         >
                                             <Github size={20} />
